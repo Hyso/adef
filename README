@@ -1,0 +1,32 @@
+Diese Software, adef, ist im Rahmen meiner Diplomarbeit "Interaktive Analyse 
+differentialgeometrischer Eigenschaften von gekrümmten Flächen" entstanden.
+
+Um sie zu nutzen, ist folgendes notwendig:
+1.) die Installation des Programmes Mayavi2 (http://github.enthought.com/mayavi/mayavi/)
+2.) einen benutzerdefinierten Python-Path, der das adef-Hauptverzeichnis enthält, wie:
+
+%PYTHONPATH%;\\path\to\adef	(Windows)
+PATH=$PATH:/path/to/adef	(Linux)
+
+
+Um adef aufzurufen, muss die Datei "main.py" über die 
+Mayavi2-Bedienoberfläche gestartet werden. Dafür muss unter 
+"File" -> "Run Python Script" die Datei "main.py" eingelesen werden.
+Alternativ kann die entwickelte Software über die Konsole gestartet werden:
+
+C:\> mayavi2 \Path\to\Software\main.py
+
+
+---
+
+
+This software, adef, was created for my (german) diploma thesis "Interactive analysis of differential geometry properties of curved surfaces".
+
+To use it, you need
+1.) Mayavi2 (http://github.enthought.com/mayavi/mayavi/)
+2.) a custom python path that includes the adef basedir
+
+%PYTHONPATH%;\\path\to\adef	(Windows)
+PATH=$PATH:/path/to/adef	(Linux)
+
+FIXME
